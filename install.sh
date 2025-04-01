@@ -2,7 +2,7 @@
 set -e
 
 curl -o ~/.git-bash-for-mac.sh https://raw.githubusercontent.com/BitwiseMercenary/git-bash-for-mac/master/.git-bash-for-mac.sh
-curl -o ~/.git-completion.zsh https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.zsh
+curl -o ~/.git-completion.zsh https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
 curl -o ~/.git-prompt.sh https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
 
 # Add newline at the end of the '.bash_profile' if it doesn't exist
